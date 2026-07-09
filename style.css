@@ -1,0 +1,175 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:#007bff;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    margin:15px 0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+header button{
+    padding:10px 15px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    margin:10px;
+}
+
+.hero{
+    text-align:center;
+    margin:20px;
+}
+
+.hero img{
+    width:90%;
+    max-width:900px;
+    height:300px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.search-box{
+    text-align:center;
+    margin:20px;
+}
+
+.search-box input{
+    width:300px;
+    padding:10px;
+    border:2px solid #007bff;
+    border-radius:5px;
+}
+
+.filter{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#priceFilter{
+    padding:10px;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    width:220px;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    margin:10px 0;
+}
+
+.card p{
+    color:green;
+    font-weight:bold;
+}
+
+.card button{
+    margin-top:10px;
+    padding:10px;
+    background:#28a745;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.card button:hover{
+    background:#218838;
+}
+
+.about,
+.reviews,
+.contact{
+    width:80%;
+    margin:40px auto;
+    text-align:center;
+}
+
+.review{
+    background:white;
+    padding:15px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 0 8px gray;
+}
+
+.contact input,
+.contact textarea{
+    width:70%;
+    padding:10px;
+    margin:8px;
+}
+
+.contact textarea{
+    height:100px;
+}
+
+.contact button{
+    padding:10px 20px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.dark{
+    background:#222;
+    color:white;
+}
+
+.dark .card{
+    background:#333;
+    color:white;
+}
+
+.dark header,
+.dark footer{
+    background:#111;
+}
